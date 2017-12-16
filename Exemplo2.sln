@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo2.iOS", "Exemplo2\Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo2.UWP", "Exemplo2\Exemplo2.UWP\Exemplo2.UWP.csproj", "{48D9E70A-5887-4366-8425-EAE7EA771C16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo2", "Exemplo2\Exemplo2\Exemplo2.csproj", "{97C6D6B8-1DDC-4973-B2F8-2A0268225E3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exemplo2", "Exemplo2\Exemplo2\Exemplo2.csproj", "{97C6D6B8-1DDC-4973-B2F8-2A0268225E3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

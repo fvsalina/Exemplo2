@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exemplo2.PessoaPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10,20,10,10">
+            <Label Text="Nome" />
+            <Entry Text="{Binding Nome}" />
+            <Label Text="Telefone" />
+            <Entry Text="{Binding Telefone}" Keyboard="Numeric"/>
+            <Label Text="Endereço" />
+            <Entry Text="{Binding Endereco}" />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+               <Button Text="Salvar" Clicked="OnSaveClicked" FontSize="10" WidthRequest="70"/>
+                <Button Text="Excluir" Clicked="OnDeleteClicked" FontSize="10" WidthRequest="70"/>
+                <Button Text="Cancelar" Clicked="OnCancelClicked" FontSize="10" WidthRequest="80"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
